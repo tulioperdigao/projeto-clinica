@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+menu {
+    width: 15%;
+    height: 100%;
+    padding: 0px 20px 0px;
+    margin: 0px;
+    background-color: #2D6673;
+}
+
+header {
+    min-height: 150px;
+}
+
+.content {
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content > p {
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+.content li {
+    font-size: 1.3em;
+}
+
+h2 {
+    color: #2D6673;
+    font-weight: bolder;
+    font-size: 1.9em;
+}
+
+blockquote {
+    font-size: 1em;
+}
+
+footer {
+    min-height: 150px;
+    background-color: #B7C7D2;
+}
+
+footer > p {
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+h1 {
+    color: #2D6673;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.241);
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 2.8em;
+}
+
+img {
+    max-height: 125px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+#github {
+    color: black;
+}
+
+table {
+    border: 1px solid black;
+    width: 800px;
+}
+
+table tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+table th {
+    background-color: #2D6673;
+    color: white;
+    padding: 10px;
+}
+
+table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.row {
+    margin: 5px;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
